@@ -12,13 +12,9 @@
 <body>
     <form class="form1" method="POST" action="assinatura.php">
         <h1 class="h3 mb-3 font-weight-normal text-center"> Formulario para Assinatura de Email</h1>
-        <label class="sr-only" for="nomeCompletoTXT">Nome Completo: </label>
         <input class="form-control" type="text" name="nomeCompleto" id="nomeCompleto" placeholder="Digite seu Nome">
-        <label class="sr-only" for="cargoTXT">Cargo: </label>
         <input class="form-control" type="text" name="cargo" id="cargo" placeholder="Qual e o seu cargo">
-        <label class="sr-only" for="telefoneTXT">telefone </label>
         <input class="form-control" type="text" name="telefone" id="telefone" placeholder="telefone para contato">
-        <label class="sr-only" for="email">E-mail Corporativo</label>
         <input class="form-control" type="email" name="email" id="email" placeholder="Digite seu email">
         <input class="form-control btn-outline-danger" type="submit" value="enviar">
     </form>

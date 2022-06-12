@@ -34,7 +34,7 @@ $email = $_POST['email'];
             </label>
         </div>
     </div>
-    <button class="btn-danger" id="btn-Preview-Image">Baixa Imagem</button>
+    <button id="btn-Preview-Image">Baixa Imagem</button>
 
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
