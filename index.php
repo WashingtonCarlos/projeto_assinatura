@@ -11,6 +11,7 @@
 </head>
 <body>
     <form class="form1" method="POST" action="assinatura.php">
+        <img id="logo" src="img/logo-responsive.png" alt="Rio Branco">
         <h1 class="h3 mb-3 font-weight-normal text-center"> Formulario para Assinatura de Email</h1>
         <input class="form-control" type="text" name="nomeCompleto" id="nomeCompleto" maxlength="30" placeholder="Digite seu Nome" required>
         <input class="form-control" type="text" name="cargo" id="cargo" maxlength="30" placeholder="Qual e o seu cargo" required >
