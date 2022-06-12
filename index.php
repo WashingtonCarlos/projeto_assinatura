@@ -15,7 +15,7 @@
         <input class="form-control" type="text" name="nomeCompleto" id="nomeCompleto" maxlength="30" placeholder="Digite seu Nome">
         <input class="form-control" type="text" name="cargo" id="cargo" maxlength="30" placeholder="Qual e o seu cargo">
         <input class="form-control" type="text" name="telefone" id="telefone" maxlength="30" placeholder="telefone para contato">
-        <input class="form-control" type="email" name="email" id="email" maxlength="30" placeholder="Digite seu email">
+        <input class="form-control" type="email" name="email" id="email" placeholder="Digite seu email">
         <input class="form-control btn-outline-danger" type="submit" value="enviar">
     </form>
 </body>
