@@ -23,8 +23,8 @@ body {
 
 #texto {
     position: absolute;
-    font-family: 'Segoe';
-    left: 230px;
+    font-family: 'Segoe UI';
+    left: 255px;
     top: 35px;
     color: #326395;
 }
@@ -38,19 +38,19 @@ body {
 }
 
 #texto #cg {
-    font-family: 'Segoe';
+    font-family: 'Segoe UI';
     font-size: 20px;
     text-align: center;
 }
 
 #texto #tel {
-    font-family: 'Segoe';
+    font-family: 'Segoe UI';
     font-size: 17px;
     text-align: center;
 }
 
 #texto #mail {
-    font-family: 'Segoe';
+    font-family: 'Segoe UI';
     font-size: 17px;
     text-align: center;
 }
