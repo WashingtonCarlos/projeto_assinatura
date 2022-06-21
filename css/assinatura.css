@@ -24,23 +24,24 @@ body {
 #texto {
     position: absolute;
     font-family: 'Segoe UI';
-    left: 255px;
-    top: 35px;
-    color: #326395;
+    left: 240px;
+    top: 45px;
+    color: #0044a5;
 }
 
 #texto #nome {
     font-family: 'Segoe UI';
     font-size: 30px;
-    line-height: 1.4;
     text-align: center;
     font-weight: 630;
+    line-height: 0;
 }
 
 #texto #cg {
     font-family: 'Segoe UI';
     font-size: 22px;
     text-align: center;
+    line-height: 1.4;
 }
 
 #texto #tel {
