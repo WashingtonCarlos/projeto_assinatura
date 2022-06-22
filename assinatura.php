@@ -26,12 +26,22 @@ $email = $_POST['email'];
     <div id="html-content-holder">
         <div class="assinatura">
             <img id="image" src="img/riobranco.png" alt="Image">
-            <label id="texto" for="dados">
-                <p id="nome"><?php echo $nomeCompleto ?></p>
-                <p id="cg"><?php echo $cargo ?></p>
-                <p id="tel"><?php echo $telefone ?></p>
-                <p id="mail"><?php echo $email ?></p>
-            </label>
+            <table>
+                <label id="texto" for="dados">
+                <tr>
+                    <td><p id="nome"><?php echo $nomeCompleto ?></p></td>
+                </tr>
+                <tr>
+                    <td><p id="cg"><?php echo $cargo ?></p></td>
+                </tr>
+                <tr>
+                    <td><p id="tel"><?php echo $telefone ?></p></td>
+                </tr>
+                <tr>
+                    <td><p id="mail"><?php echo $email ?></p></td>
+                </tr>
+                </label>
+            </table>
         </div>
     </div>
     <button id="btn-Preview-Image">Baixa Imagem</button>
