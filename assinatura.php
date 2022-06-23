@@ -44,7 +44,7 @@ $email = $_POST['email'];
             </table>
         </div>
     </div>
-    <button id="btn-Preview-Image">Baixa Imagem</button>
+    <button id="btn-Preview-Image">Baixar a assinatura de email</button>
 
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
