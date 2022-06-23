@@ -38,7 +38,7 @@ $email = $_POST['email'];
                     <td><p id="tel"><?php echo $telefone ?></p></td>
                 </tr>
                 <tr>
-                    <td><p id="mail"><?php echo $email ?></p></td>
+                    <td id="email"><p id="mail"><?php echo $email ?></p></td>
                 </tr>
                 </label>
             </table>

@@ -68,7 +68,6 @@ body {
 #idTable {
     position: absolute;
     border: 1px solid black;
-    font-family: 'Segoe UI';
     left: 220px;
     top: 60px;
     color: #0044a5;
@@ -80,8 +79,10 @@ td {
     border: solid 1px; 
     padding: 1;
     width: 430px;
+    font-size: 30px;
+    font-family: 'Segoe UI';
 }
 
-tr {
-    height: 20px;
+#email {
+    font-size: 19px;
 }
