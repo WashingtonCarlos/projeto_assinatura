@@ -26,7 +26,7 @@ $email = $_POST['email'];
     <div id="html-content-holder">
         <div class="assinatura">
             <img id="image" src="img/riobranco.png" alt="Image">
-            <table id="idTable">
+            <table border="1" id="idTable">
                 <label id="texto" for="dados">
                 <tr>
                     <td><p id="nome"><?php echo $nomeCompleto ?></p></td>
