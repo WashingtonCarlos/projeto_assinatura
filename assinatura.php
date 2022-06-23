@@ -26,19 +26,19 @@ $email = $_POST['email'];
     <div id="html-content-holder">
         <div class="assinatura">
             <img id="image" src="img/riobranco.png" alt="Image">
-            <table border="1" id="idTable">
+            <table id="idTable">
                 <label id="texto" for="dados">
                 <tr>
-                    <td><p id="nome"><?php echo $nomeCompleto ?></p></td>
+                    <td id="nome"><p><?php echo $nomeCompleto ?></p></td>
                 </tr>
                 <tr>
-                    <td><p id="cg"><?php echo $cargo ?></p></td>
+                    <td id="cg"><p><?php echo $cargo ?></p></td>
                 </tr>
                 <tr>
-                    <td><p id="tel"><?php echo $telefone ?></p></td>
+                    <td id="tel"><p><?php echo $telefone ?></p></td>
                 </tr>
                 <tr>
-                    <td id="email"><p id="mail"><?php echo $email ?></p></td>
+                    <td id="email"><p><?php echo $email ?></p></td>
                 </tr>
                 </label>
             </table>
